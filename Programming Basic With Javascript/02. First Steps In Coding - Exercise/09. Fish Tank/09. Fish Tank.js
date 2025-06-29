@@ -1,6 +1,6 @@
-function fishTank(dyljina, shirochina, visochina, procent) {
+function fishTank(length, width, height, percent) {
 
-    console.log(((dyljina * shirochina * visochina) / 1000) * (1 - procent / 100));
+    console.log(((length * width * height) / 1000) * (1 - percent / 100));
 
 }
 fishTank(85, 75, 47, 17);
