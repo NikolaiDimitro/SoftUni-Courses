@@ -8,12 +8,8 @@ function clockPart2() {
 
                 console.log(`${i} : ${j} : ${k}`);
 
-
             }
-
         }
-
     }
-
 }
 clockPart2(2)
