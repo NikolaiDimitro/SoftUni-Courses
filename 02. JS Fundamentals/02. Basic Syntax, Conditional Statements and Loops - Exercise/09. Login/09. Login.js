@@ -4,8 +4,6 @@ function login(arr) {
     let password = username.split('').reverse().join('');
     let count = 0;
 
-    // console.log(password);
-
     for (let i = 1; i < arr.length; i++) {
 
         let current = arr[i];
